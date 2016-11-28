@@ -10,5 +10,6 @@ if '--sim' in sys.argv:
 elif '--real' in sys.argv:
 	dm = data.realdata()
 else:
-	raise Exception('Please specify --sim for simulated data or --real for real data')
+	raise Exception(
+		'Please specify --sim for simulated data or --real for real data')
 dispatch.dispatch(dm, modules=[mainplots, power, interaction])

@@ -41,5 +41,10 @@ def generatedata(effectsize=EFFECTSIZE, blinksinbaseline=BLINKSINBASELINE,
 def realdata():
 		
 	dm = io.readpickle('data/real-data.pkl')
+	# If the buffered DataMatrix still uses a list-style row index, we convert
+	# it to the new Index object with this hack.
+	if isinstance(dm._rowid, list):
+		from datamatrix._datamatrix._index import Index
+		object.__setattr__(dm, u'_rowid', Index(dm._rowid))
 	print(len(dm))
 	return dm
