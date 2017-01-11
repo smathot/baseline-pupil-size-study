@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,14 +41,21 @@
      inkscape:window-width="2495"
      inkscape:window-height="1416"
      id="namedview946"
-     showgrid="false"
-     inkscape:zoom="1.5277778"
-     inkscape:cx="375.87084"
-     inkscape:cy="131.58476"
-     inkscape:window-x="2625"
+     showgrid="true"
+     inkscape:zoom="1.080302"
+     inkscape:cx="561.08561"
+     inkscape:cy="343.74959"
+     inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="figure_1" />
+     inkscape:current-layer="figure_1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4695" />
+  </sodipodi:namedview>
   <defs
      id="defs4"
      style="stroke-linecap:butt;stroke-linejoin:round">
@@ -62,6 +69,14 @@
      id="figure_1"
      style="stroke-linecap:butt;stroke-linejoin:round"
      transform="translate(0,24)">
+    <rect
+       style="opacity:1;fill:#f8bbd0;fill-opacity:1;stroke:none;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4697"
+       width="236"
+       height="224"
+       x="52"
+       y="-17.6"
+       ry="4" />
     <g
        id="axes_1"
        style="stroke-linecap:butt;stroke-linejoin:round"
@@ -1710,7 +1725,8 @@
         </g>
         <g
            id="text_18"
-           style="stroke-linecap:butt;stroke-linejoin:round">
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           transform="translate(-8,0)">
           <!-- Pupil size -->
           <defs
              id="defs487">
@@ -1934,6 +1950,14 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <rect
+       style="opacity:1;fill:#a5d6a7;fill-opacity:1;stroke:none;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4697-3"
+       width="240"
+       height="224"
+       x="296"
+       y="-17.6"
+       ry="4" />
     <g
        style="stroke-linecap:butt;stroke-linejoin:round"
        id="patch_7"

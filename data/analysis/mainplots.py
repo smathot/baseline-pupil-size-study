@@ -46,6 +46,7 @@ def plotall(dm, col, i, title):
 	plotmean(dm, col)
 	plt.subplot(PLOTS,2,i*2+2)
 	plotindividual(dm, col)
+	# plt.ylim(0, 1.1)
 	
 	
 def mainplots(dm):
