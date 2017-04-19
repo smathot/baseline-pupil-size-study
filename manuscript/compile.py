@@ -5,11 +5,11 @@ import sys
 from academicmarkdown import build, git
 import myZoteroCredentials
 import time
-version = '1.1.2'
+version = '1.1.3'
 build.path += ['svg', 'md', 'tbl']
 build.zoteroApiKey = myZoteroCredentials.zoteroApiKey
 build.zoteroLibraryId = myZoteroCredentials.zoteroLibraryId
-build.setStyle('modern')
+build.setStyle('apa')
 build.docxRef = None
 build.tableTemplate = 'pandoc'
 build.pdfHeader = 'Manuscript in preparation [v%s; %s; %s]' % (version, \
