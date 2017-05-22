@@ -15,7 +15,7 @@
    viewBox="0 0 576 576"
    width="576pt"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="FigPower.svg">
   <metadata
      id="metadata2143">
@@ -37,17 +37,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2495"
-     inkscape:window-height="1416"
+     inkscape:window-width="2494"
+     inkscape:window-height="1376"
      id="namedview2141"
      showgrid="false"
-     inkscape:zoom="1.3111111"
-     inkscape:cx="156.90222"
-     inkscape:cy="357.43941"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="511.79154"
+     inkscape:cy="431.64411"
+     inkscape:window-x="66"
+     inkscape:window-y="30"
      inkscape:window-maximized="1"
-     inkscape:current-layer="figure_1">
+     inkscape:current-layer="axes_4">
     <inkscape:grid
        type="xygrid"
        id="grid7584" />
@@ -852,9 +852,11 @@
          id="line2d_38">
         <path
            clip-path="url(#p5d74fa9151)"
-           d="M 90.01204 232.619763  L 108.072241 227.565534  L 126.132441 217.764427  L 144.192642 201.628458  L 162.252843 182.316522  L 180.313043 157.847905  L 198.373244 133.225613  L 216.433445 109.764427  L 234.493645 91.25502  L 252.553846 80.514783  L 270.614047 71.994308  "
-           style="fill:none;stroke:#607d8b;stroke-linecap:square;"
-           id="path449" />
+           d="m 108.07224,227.56553 18.0602,-9.8011 18.0602,-16.13597 18.0602,-19.31194 18.0602,-24.46862 18.0602,-24.62229 18.0602,-23.46118 18.0602,-18.50941 18.06021,-10.740237 18.0602,-8.520475"
+           style="fill:none;stroke:#607d8b;stroke-linecap:square;stroke-linejoin:round"
+           id="path449"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <defs
            id="defs451">
           <path
@@ -865,12 +867,6 @@
         <g
            clip-path="url(#p5d74fa9151)"
            id="g454">
-          <use
-             style="fill:#607d8b;stroke:#000000;stroke-width:0.5;"
-             x="90.0120401338"
-             xlink:href="#mdb158ac0ce"
-             y="232.619762846"
-             id="use456" />
           <use
              style="fill:#607d8b;stroke:#000000;stroke-width:0.5;"
              x="108.072240803"
@@ -937,9 +933,11 @@
          id="line2d_39">
         <path
            clip-path="url(#p5d74fa9151)"
-           d="M 90.01204 236.888538  L 108.072241 236.888538  L 126.132441 236.888538  L 144.192642 236.888538  L 162.252843 236.888538  L 180.313043 236.888538  L 198.373244 236.854387  L 216.433445 236.751937  L 234.493645 236.751937  L 252.553846 236.410435  L 270.614047 236.000632  "
-           style="fill:none;stroke:#e91e63;stroke-linecap:square;"
-           id="path479" />
+           d="m 108.07224,236.88854 h 18.0602 18.0602 18.0602 18.0602 l 18.0602,-0.0342 18.0602,-0.10245 h 18.0602 l 18.06021,-0.34151 18.0602,-0.4098"
+           style="fill:none;stroke:#e91e63;stroke-linecap:square;stroke-linejoin:round"
+           id="path479"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <defs
            id="defs481">
           <path
@@ -950,12 +948,6 @@
         <g
            clip-path="url(#p5d74fa9151)"
            id="g484">
-          <use
-             style="fill:#e91e63;stroke:#000000;stroke-width:0.5;"
-             x="90.0120401338"
-             xlink:href="#m46d5043d10"
-             y="236.888537549"
-             id="use486" />
           <use
              style="fill:#e91e63;stroke:#000000;stroke-width:0.5;"
              x="108.072240803"
@@ -1022,9 +1014,11 @@
          id="line2d_40">
         <path
            clip-path="url(#p5d74fa9151)"
-           d="M 90.01204 236.888538  L 108.072241 236.051858  L 126.132441 222.323478  L 144.192642 177.245217  L 162.252843 119.88996  L 180.313043 84.339605  L 198.373244 70.542925  L 216.433445 67.213281  L 234.493645 66.3083  L 252.553846 66.1717  L 270.614047 66.154625  "
-           style="fill:none;stroke:#4caf50;stroke-linecap:square;"
-           id="path509" />
+           d="m 108.07224,236.05186 18.0602,-13.72838 18.0602,-45.07826 18.0602,-57.35526 18.0602,-35.550355 18.0602,-13.79668 18.0602,-3.329644 18.0602,-0.904981 18.06021,-0.1366 18.0602,-0.01708"
+           style="fill:none;stroke:#4caf50;stroke-linecap:square;stroke-linejoin:round"
+           id="path509"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <defs
            id="defs511">
           <path
@@ -1035,12 +1029,6 @@
         <g
            clip-path="url(#p5d74fa9151)"
            id="g514">
-          <use
-             style="fill:#4caf50;stroke:#000000;stroke-width:0.5;"
-             x="90.0120401338"
-             xlink:href="#mdc73eeeedf"
-             y="236.888537549"
-             id="use516" />
           <use
              style="fill:#4caf50;stroke:#000000;stroke-width:0.5;"
              x="108.072240803"
@@ -1862,18 +1850,14 @@
          id="line2d_78">
         <path
            clip-path="url(#pfcc9fe041f)"
-           d="M 334.185953 232.705138  L 352.246154 235.368854  L 370.306355 236.273834  L 388.366555 236.683636  L 406.426756 236.871462  L 424.486957 236.888538  L 442.547157 236.871462  L 460.607358 236.888538  L 478.667559 236.888538  L 496.727759 236.888538  L 514.78796 236.888538  "
-           style="fill:none;stroke:#607d8b;stroke-linecap:square;"
-           id="path996" />
+           d="m 352.24615,235.36885 18.0602,0.90498 18.0602,0.40981 18.06021,0.18782 18.0602,0.0171 18.0602,-0.0171 18.0602,0.0171 h 18.0602 18.0602 18.0602"
+           style="fill:none;stroke:#607d8b;stroke-linecap:square;stroke-linejoin:round"
+           id="path996"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#pfcc9fe041f)"
            id="g998">
-          <use
-             style="fill:#607d8b;stroke:#000000;stroke-width:0.5;"
-             x="334.185953177"
-             xlink:href="#mdb158ac0ce"
-             y="232.70513834"
-             id="use1000" />
           <use
              style="fill:#607d8b;stroke:#000000;stroke-width:0.5;"
              x="352.246153846"
@@ -1940,18 +1924,14 @@
          id="line2d_79">
         <path
            clip-path="url(#pfcc9fe041f)"
-           d="M 334.185953 236.837312  L 352.246154 236.888538  L 370.306355 236.888538  L 388.366555 236.888538  L 406.426756 236.888538  L 424.486957 236.888538  L 442.547157 236.888538  L 460.607358 236.888538  L 478.667559 236.888538  L 496.727759 236.888538  L 514.78796 236.888538  "
-           style="fill:none;stroke:#e91e63;stroke-linecap:square;"
-           id="path1023" />
+           d="m 352.24615,236.88854 h 18.0602 18.0602 18.06021 18.0602 18.0602 18.0602 18.0602 18.0602 18.0602"
+           style="fill:none;stroke:#e91e63;stroke-linecap:square;stroke-linejoin:round"
+           id="path1023"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#pfcc9fe041f)"
            id="g1025">
-          <use
-             style="fill:#e91e63;stroke:#000000;stroke-width:0.5;"
-             x="334.185953177"
-             xlink:href="#m46d5043d10"
-             y="236.837312253"
-             id="use1027" />
           <use
              style="fill:#e91e63;stroke:#000000;stroke-width:0.5;"
              x="352.246153846"
@@ -2018,18 +1998,14 @@
          id="line2d_80">
         <path
            clip-path="url(#pfcc9fe041f)"
-           d="M 334.185953 231.834308  L 352.246154 236.769012  L 370.306355 236.888538  L 388.366555 236.888538  L 406.426756 236.888538  L 424.486957 236.888538  L 442.547157 236.888538  L 460.607358 236.888538  L 478.667559 236.888538  L 496.727759 236.888538  L 514.78796 236.888538  "
-           style="fill:none;stroke:#4caf50;stroke-linecap:square;"
-           id="path1050" />
+           d="m 352.24615,236.76901 18.0602,0.11953 h 18.0602 18.06021 18.0602 18.0602 18.0602 18.0602 18.0602 18.0602"
+           style="fill:none;stroke:#4caf50;stroke-linecap:square;stroke-linejoin:round"
+           id="path1050"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#pfcc9fe041f)"
            id="g1052">
-          <use
-             style="fill:#4caf50;stroke:#000000;stroke-width:0.5;"
-             x="334.185953177"
-             xlink:href="#mdc73eeeedf"
-             y="231.8343083"
-             id="use1054" />
           <use
              style="fill:#4caf50;stroke:#000000;stroke-width:0.5;"
              x="352.246153846"
@@ -3070,18 +3046,14 @@
          id="line2d_118">
         <path
            clip-path="url(#pff8d2d057c)"
-           d="M 90.01204 477.066877  L 108.072241 472.029723  L 126.132441 461.648063  L 144.192642 445.665771  L 162.252843 425.278103  L 180.313043 403.2  L 198.373244 377.109249  L 216.433445 354.057866  L 234.493645 335.206957  L 252.553846 325.764427  L 270.614047 316.953676  "
-           style="fill:none;stroke:#607d8b;stroke-linecap:square;"
-           id="path1488" />
+           d="m 108.07224,472.02972 18.0602,-10.38166 18.0602,-15.98229 18.0602,-20.38767 18.0602,-22.0781 18.0602,-26.09075 18.0602,-23.05138 18.0602,-18.85091 18.06021,-9.44253 18.0602,-8.81075"
+           style="fill:none;stroke:#607d8b;stroke-linecap:square;stroke-linejoin:round"
+           id="path1488"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#pff8d2d057c)"
            id="g1490">
-          <use
-             style="fill:#607d8b;stroke:#000000;stroke-width:0.5;"
-             x="90.0120401338"
-             xlink:href="#mdb158ac0ce"
-             y="477.06687747"
-             id="use1492" />
           <use
              style="fill:#607d8b;stroke:#000000;stroke-width:0.5;"
              x="108.072240803"
@@ -3148,18 +3120,14 @@
          id="line2d_119">
         <path
            clip-path="url(#pff8d2d057c)"
-           d="M 90.01204 477.083953  L 108.072241 467.726798  L 126.132441 445.477945  L 144.192642 409.876364  L 162.252843 371.18419  L 180.313043 338.587826  L 198.373244 320.624822  L 216.433445 312.821502  L 234.493645 310.73834  L 252.553846 310.345613  L 270.614047 310.328538  "
-           style="fill:none;stroke:#e91e63;stroke-linecap:square;"
-           id="path1515" />
+           d="m 108.07224,467.7268 18.0602,-22.24886 18.0602,-35.60158 18.0602,-38.69217 18.0602,-32.59636 18.0602,-17.96301 18.0602,-7.80332 18.0602,-2.08316 18.06021,-0.39273 18.0602,-0.0171"
+           style="fill:none;stroke:#e91e63;stroke-linecap:square;stroke-linejoin:round"
+           id="path1515"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#pff8d2d057c)"
            id="g1517">
-          <use
-             style="fill:#e91e63;stroke:#000000;stroke-width:0.5;"
-             x="90.0120401338"
-             xlink:href="#m46d5043d10"
-             y="477.083952569"
-             id="use1519" />
           <use
              style="fill:#e91e63;stroke:#000000;stroke-width:0.5;"
              x="108.072240803"
@@ -3226,18 +3194,14 @@
          id="line2d_120">
         <path
            clip-path="url(#pff8d2d057c)"
-           d="M 90.01204 478.023083  L 108.072241 438.869881  L 126.132441 379.380237  L 144.192642 335.224032  L 162.252843 316.970751  L 180.313043 311.404269  L 198.373244 310.601739  L 216.433445 310.362688  L 234.493645 310.311462  L 252.553846 310.311462  L 270.614047 310.311462  "
-           style="fill:none;stroke:#4caf50;stroke-linecap:square;"
-           id="path1542" />
+           d="m 108.07224,438.86988 18.0602,-59.48964 18.0602,-44.15621 18.0602,-18.25328 18.0602,-5.56648 18.0602,-0.80253 18.0602,-0.23905 18.0602,-0.0512 h 18.06021 18.0602"
+           style="fill:none;stroke:#4caf50;stroke-linecap:square;stroke-linejoin:round"
+           id="path1542"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#pff8d2d057c)"
            id="g1544">
-          <use
-             style="fill:#4caf50;stroke:#000000;stroke-width:0.5;"
-             x="90.0120401338"
-             xlink:href="#mdc73eeeedf"
-             y="478.023083004"
-             id="use1546" />
           <use
              style="fill:#4caf50;stroke:#000000;stroke-width:0.5;"
              x="108.072240803"
@@ -4282,18 +4246,14 @@
          id="line2d_158">
         <path
            clip-path="url(#p05eb80cac7)"
-           d="M 334.185953 476.810751  L 352.246154 479.25249  L 370.306355 480.533123  L 388.366555 480.92585  L 406.426756 481.045375  L 424.486957 481.062451  L 442.547157 481.062451  L 460.607358 481.062451  L 478.667559 481.062451  L 496.727759 481.062451  L 514.78796 481.062451  "
-           style="fill:none;stroke:#607d8b;stroke-linecap:square;"
-           id="path2016" />
+           d="m 352.24615,479.25249 18.0602,1.28063 18.0602,0.39273 18.06021,0.11952 18.0602,0.0171 h 18.0602 18.0602 18.0602 18.0602 18.0602"
+           style="fill:none;stroke:#607d8b;stroke-linecap:square;stroke-linejoin:round"
+           id="path2016"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#p05eb80cac7)"
            id="g2018">
-          <use
-             style="fill:#607d8b;stroke:#000000;stroke-width:0.5;"
-             x="334.185953177"
-             xlink:href="#mdb158ac0ce"
-             y="476.810750988"
-             id="use2020" />
           <use
              style="fill:#607d8b;stroke:#000000;stroke-width:0.5;"
              x="352.246153846"
@@ -4360,18 +4320,14 @@
          id="line2d_159">
         <path
            clip-path="url(#p05eb80cac7)"
-           d="M 334.185953 477.049802  L 352.246154 480.003794  L 370.306355 480.942925  L 388.366555 481.062451  L 406.426756 481.062451  L 424.486957 481.062451  L 442.547157 481.062451  L 460.607358 481.062451  L 478.667559 481.062451  L 496.727759 481.062451  L 514.78796 481.062451  "
-           style="fill:none;stroke:#e91e63;stroke-linecap:square;"
-           id="path2043" />
+           d="m 352.24615,480.00379 18.0602,0.93913 18.0602,0.11953 h 18.06021 18.0602 18.0602 18.0602 18.0602 18.0602 18.0602"
+           style="fill:none;stroke:#e91e63;stroke-linecap:square;stroke-linejoin:round"
+           id="path2043"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#p05eb80cac7)"
            id="g2045">
-          <use
-             style="fill:#e91e63;stroke:#000000;stroke-width:0.5;"
-             x="334.185953177"
-             xlink:href="#m46d5043d10"
-             y="477.049802372"
-             id="use2047" />
           <use
              style="fill:#e91e63;stroke:#000000;stroke-width:0.5;"
              x="352.246153846"
@@ -4438,18 +4394,14 @@
          id="line2d_160">
         <path
            clip-path="url(#p05eb80cac7)"
-           d="M 334.185953 477.988933  L 352.246154 481.062451  L 370.306355 481.062451  L 388.366555 481.062451  L 406.426756 481.062451  L 424.486957 481.062451  L 442.547157 481.062451  L 460.607358 481.062451  L 478.667559 481.062451  L 496.727759 481.062451  L 514.78796 481.062451  "
-           style="fill:none;stroke:#4caf50;stroke-linecap:square;"
-           id="path2070" />
+           d="m 352.24615,481.06245 h 18.0602 18.0602 18.06021 18.0602 18.0602 18.0602 18.0602 18.0602 18.0602"
+           style="fill:none;stroke:#4caf50;stroke-linecap:square;stroke-linejoin:round"
+           id="path2070"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
         <g
            clip-path="url(#p05eb80cac7)"
            id="g2072">
-          <use
-             style="fill:#4caf50;stroke:#000000;stroke-width:0.5;"
-             x="334.185953177"
-             xlink:href="#mdc73eeeedf"
-             y="477.988932806"
-             id="use2074" />
           <use
              style="fill:#4caf50;stroke:#000000;stroke-width:0.5;"
              x="352.246153846"
@@ -4542,92 +4494,87 @@
       </g>
     </g>
     <text
-       sodipodi:linespacing="125%"
        id="text24090"
        y="32.080292"
        x="86.370705"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan24094"
          y="32.080292"
          x="86.370705"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          sodipodi:role="line">a) Detection of true effects</tspan><tspan
          y="44.580292"
          x="86.370705"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          sodipodi:role="line"
          id="tspan7523">with blinks during baseline</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text24090-3"
        y="32.080292"
        x="330.54462"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan24094-6"
          y="32.080292"
          x="330.54462"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          sodipodi:role="line">b) Detection of spurious effects</tspan><tspan
          y="44.580292"
          x="330.54462"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          sodipodi:role="line"
          id="tspan7523-7">with blinks during baseline</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text24090-5"
        y="276.25409"
        x="86.370705"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan24094-3"
          y="276.25409"
          x="86.370705"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          sodipodi:role="line">c) Detection of true effects</tspan><tspan
          y="288.75409"
          x="86.370705"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          sodipodi:role="line"
          id="tspan7523-5">without blinks during baseline</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text24090-3-6"
        y="276.25409"
        x="330.54462"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan24094-6-2"
          y="276.25409"
          x="330.54462"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          sodipodi:role="line">d) Detection of spurious effects</tspan><tspan
          y="288.75409"
          x="330.54462"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"
          sodipodi:role="line"
          id="tspan7523-7-9">without blinks during baseline</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="346.45834"
        y="84.21534"
-       id="text7576"
-       sodipodi:linespacing="125%"><tspan
+       id="text7576"><tspan
          sodipodi:role="line"
          id="tspan7578"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;fill:#607d8b;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#607d8b;stroke-linecap:butt;stroke-linejoin:round"
          x="346.45834"
          y="84.21534">No baseline correction</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;fill:#e91e63;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#e91e63;stroke-linecap:butt;stroke-linejoin:round"
          x="346.45834"
          y="96.71534"
          id="tspan7580">Divisive baseline correction</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:Arial;fill:#4caf50;stroke-linecap:butt;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#4caf50;stroke-linecap:butt;stroke-linejoin:round"
          x="346.45834"
          y="109.21534"
          id="tspan7582">Subtractive baseline correction</tspan></text>

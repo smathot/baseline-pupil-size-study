@@ -3,7 +3,7 @@ The simulated data highlights problems that can occur when applying baseline cor
 
 ## Data
 
-The data was collected for a different study, and consisted of 2520 trials (across 15 participants) in two conditions, here labeled Blue and Red. All participants signed informed consent before participating and received monetary compensation. The experiment was approved by the ethics committee of Utrecht University.
+The data was collected for a different study, and consisted of 2520 trials (across 15 participants) in two conditions, here labeled Blue and Red. All participants signed informed consent before participating and received monetary compensation. The experiment was approved by the ethics committee of Utrecht University. ++For details, see Exp. 1 from @MathVan+heusden2015.++
 
 
 %--
@@ -20,9 +20,9 @@ First, consider the uncorrected data (%FigRealData::a,b). The trial starts with 
 
 ## Divisive baseline correction
 
-%FigRealData::c,d shows the data after applying divisive baseline correction (applied in the same way as for the simulated data). Overall, the data now suggests that the pupil is markedly larger in the Blue than the Red condition. But to the expert eye, the pattern is odd, because the difference between Blue and Red is mostly due to a sharp (apparent) pupillary dilation in the Blue condition immediately following the baseline period; afterwards, the difference remains more-or-less constant. This is odd if you know that, because of the latency of the pupillary response, real effects on pupil size develop at the earliest about 220 ms after the manipulation that caused them [e.g. @Mathôt2015EyePrep]; in other words, there should not be any difference between Blue and Red before 220 ms.
+%FigRealData::c,d shows the data after applying divisive baseline correction (applied in the same way as for the simulated data). Overall, the data now suggests that the pupil is markedly larger in the Blue than the Red condition. But to the expert eye, the pattern is odd, because the difference between Blue and Red is mostly due to a sharp (apparent) pupillary dilation in the Blue condition immediately following the baseline period; afterwards, the difference remains more-or-less constant. This is odd if you know that, because of the latency of the pupillary response, real effects on pupil size develop at the earliest about 220 ms after the manipulation that caused them [e.g. @MathôtVan+der+linden2015EyePrep]; in other words, there should not be any difference between Blue and Red before 220 ms.
 
-If we look at the individual trials, it is clear where the problem comes from: Because of blinks during the baseline period, baseline-corrected pupil size is unrealistically large in a handful of trials (dotted lines). Most of these trials are in the Blue condition, and this causes overall pupil size to be overestimated in the Blue condition. (It is not clear why there are more blinks in the Blue than the Red condition. This may well be due to chance. But even if the two condition systematically differ in blink rate—which would be interesting—this difference should not confound the pupil-size data!)
+If we look at the individual trials, it is clear where the problem comes from: Because of blinks during the baseline period, baseline-corrected pupil size is unrealistically large in a handful of trials (dotted lines). Most of these trials are in the Blue condition, and this causes overall pupil size to be overestimated in the Blue condition. (It is not clear why there are more blinks in the Blue than the Red condition. This may well be due to chance. But even if the two ++conditions++ systematically differ in blink rate—which would be interesting—this difference should not confound the pupil-size data!)
 
 
 ## Subtractive baseline correction

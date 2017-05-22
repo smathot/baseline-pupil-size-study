@@ -1,5 +1,5 @@
 ---
-title: "Safe and sensible baseline correction of pupil-size data"
+title: "Safe and sensible preprocessing and baseline correction of pupil-size data"
 author:
   Sebastiaan Mathôt^1,2^\*, Jasper Fabius^3^, Elle Van Heusden^3^, Stefan Van der Stigchel^3^
 affiliation:
@@ -32,6 +32,12 @@ correspondence:
 ~
 
 
+# ++A preprocessing primer ++
+
+%-- include: preprocessing.md --%
+~
+
+
 # Simulated data
 
 %-- include: simulation.md --%
@@ -42,6 +48,13 @@ correspondence:
 # Real data
 
 %-- include: real-data.md --%
+
+~
+
+
+# ++Baseline correction and statistics++
+
+%-- include: statistics.md --%
 
 ~
 

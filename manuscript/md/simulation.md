@@ -9,7 +9,7 @@ Based on this single recording, 200 trials were generated. To each trial, a cons
 
 To simulate two conditions that differed in pupil size, we added a series of values that linearly increased from 0 (at the start of the trial) to 200 (at the end of the trial) to half the trials (i.e. the same slight increase from 0 to 200 was applied to half the trials). These trials are the Red condition; the other trials are the Blue condition. As shown in %FigSimulation::a, pupil size is slightly larger in the Red condition than in the Blue condition, and this effect increases over time.
 
-Crucially, in the Blue condition there were two trials in which a blink started at the first sample, and therefore affected the baseline period. In none of the other trials did the baseline period contain a blink.
+Crucially, in the Blue condition there were two trials in which a blink started at the first sample, and therefore affected the baseline period. In none of the other trials did the baseline period contain a blink. ++By making the two conditions equally "noisy" (i.e. with exactly one blink per trial) but having two trials in the Blue condition in which these blinks occurred during the baseline, we can show how only a few trials with artifacts during the baseline can dramatically affect the overall results. Crucially, this can easily happen by chance, and even thorough data preprocessing does not guarantee that it will not.++
 
 
 %--
@@ -25,7 +25,7 @@ figure:
 
 First, median pupil size during the first 10 samples (corresponding to 10 ms) was taken as baseline pupil size. Next, all pupil sizes were divided by this baseline pupil size. This was done separately for each trial.
 
-(The length of the baseline period varies strongly from study to study. Some authors prefer long baseline periods of up to 1000 ms [e.g. @LaengSulutvedt2014], which have the disadvantage of being susceptible to pupil-size fluctuations during the baseline period. Other authors, including ourselves [e.g. @MathMelmiCastet2015], prefer short baseline periods, which have the disadvantage of being susceptible to recording noise. But the problems that we highlight in this paper apply to long and short baseline periods alike.)
+(The length of the baseline period varies strongly from study to study. Some authors prefer long baseline periods of up to 1000 ms [e.g. @LaengSulutvedt2014], which have the disadvantage of being susceptible to pupil-size fluctuations during the baseline period. Other authors, including we [e.g. @MathMelmiCastet2015], prefer short baseline periods, which have the disadvantage of being susceptible to recording noise. But the problems that we highlight in this paper apply to long and short baseline periods alike.)
 
 The results of divisive baseline correction are shown in %FigSimulation::c,d. In the two Blue trials in which there was a blink during the baseline period, baseline pupil size was very small; consequently, baseline-corrected pupil size was very large. These two trials are clearly visible in %FigSimulation::c as unrealistic baseline-corrected pupil sizes ranging from 40 to 130 (as a proportion of baseline), whereas in this dataset realistic baseline-corrected pupil sizes tend to range from 0.3 to 1 (see zoom panel in %FigSimulation::c). Pupil sizes on these two trials are so strongly distorted that they even affect the overall results: As shown in %FigSimulation::d, the overall results suggest that the pupil is largest in the Blue condition, whereas we had simulated an effect in the opposite direction.
 
@@ -41,15 +41,16 @@ The results of subtractive baseline correction are shown in %FigSimulation::e,f.
 
 The results above show that the effects of blinks during the baseline period can be catastrophic, and much more so for divisive than subtractive baseline correction. However, it may be that divisive baseline correction nevertheless leads to the highest statistical power when there are no blinks during the baseline period (even though this is unlikely to happen in real data). To test this, we generated data as described above, while varying the following:
 
-- Effect size, from 0 (no difference between Red and Blue) to 500 (Red larger than Blue) in steps of 50
+- Effect size (Red larger than Blue), from 50 to 500 in steps of 50
 - Baseline correction: no correction, divisive, or subtractive
 - Blinks during baseline in Blue condition: yes (2 blinks) or no
 
-We generated 10,000 datasets for each combination, giving a total of (10,000 × 11 × 3 × 2 =) 660,000 datasets. For each dataset, we conducted an independent-samples t-test to test for a difference in mean pupil size between the Red and Blue conditions during the last 50 samples. We considered three possible outcomes (for convenience, we treat the 0 effect size as if it still constitutes a true positive effect):
+We generated 10,000 datasets for each combination, giving a total of (10,000 × 10 × 3 × 2 =) 600,000 datasets. For each dataset, we conducted an independent-samples t-test to test for a difference in mean pupil size between the Red and Blue conditions during the last 50 samples. We considered three possible outcomes:
 
 - Detection of a true effect: *p* < .05 and pupil size smallest in the Blue condition
 - Detection of a spurious effect: *p* < .05 and pupil smallest in the Red condition
 - No detection of an effect: *p* ≥ .05
+
 
 %--
 figure:
