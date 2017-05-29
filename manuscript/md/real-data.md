@@ -3,7 +3,7 @@ The simulated data highlights problems that can occur when applying baseline cor
 
 ## Data
 
-The data was collected for a different study, and consisted of 2520 trials (across 15 participants) in two conditions, here labeled Blue and Red. All participants signed informed consent before participating and received monetary compensation. The experiment was approved by the ethics committee of Utrecht University. ++For details, see Exp. 1 from @MathVan+heusden2015.++
+The data was collected for a different study, and consisted of 2520 trials (across 15 participants) in two conditions, here labeled Blue and Red. All participants signed informed consent before participating and received monetary compensation. The experiment was approved by the ethics committee of Utrecht University. ++For full details, see Exp. 1 from @MathVan+heusden2015.++
 
 
 %--
