@@ -34,7 +34,7 @@ If we look at the individual trials, it is clear where the problem comes from: B
 
 %FigHist shows a histogram of baseline pupil sizes, that is, of median pupil sizes during the first 10 ms of the trial. In this dataset, baseline pupil sizes are more-or-less normally distributed with only a slightly elongated right tail. (But baseline pupil sizes may be distributed differently in other datasets.)
 
-On a few trials, baseline pupil size is unusually small; but these trials are so rare that they are hardly visible in the original histogram (%FigHist::a). Therefore, we have also plotted a log-transformed histogram, which accentuates bins with few observations (%FigHist::b). Looking at this distribution, a reasonable cut-off seems to be 400 (arbitrary units): Baseline pupil sizes below this value are—in this dataset—unrealistic and can catastrophically affect the results as we have described above.
+On a few trials, baseline pupil size is unusually small; but these trials are so rare that they are hardly visible in the original histogram (%FigHist::a). Therefore, we have also plotted a histogram with log-transformed counts on the Y axis, which accentuates bins with few observations (%FigHist::b). Looking at this distribution, a reasonable cut-off seems to be 400 (arbitrary units): Baseline pupil sizes below this value are—in this dataset—unrealistic and can catastrophically affect the results as we have described above.
 
 
 %--

@@ -41,7 +41,7 @@ The results of subtractive baseline correction are shown in %FigSimulation::e,f.
 
 The results above show that the effects of blinks during the baseline period can be catastrophic, and much more so for divisive than subtractive baseline correction. However, it may be that divisive baseline correction nevertheless leads to the highest statistical power when there are no blinks during the baseline period (even though this is unlikely to happen in real data). To test this, we generated data as described above, while varying the following:
 
-- Effect size (Red larger than Blue), from 50 to 500 in steps of 50
+- Effect size (Red larger than Blue), ++from 50 (±2 %) to 500 (±20 %) in steps of 50++
 - Baseline correction: no correction, divisive, or subtractive
 - Blinks during baseline in Blue condition: yes (2 blinks) or no
 
