@@ -25,16 +25,17 @@ correspondence:
 ~
 
 
-# Safe and sensible baseline correction of pupil-size data
+# Safe and sensible preprocessing and baseline correction of pupil-size data
 
 %-- include: introduction.md --%
 
 ~
 
 
-# ++A preprocessing primer ++
+# A preprocessing primer
 
 %-- include: preprocessing.md --%
+
 ~
 
 
@@ -52,14 +53,14 @@ correspondence:
 ~
 
 
-# ++Baseline correction and statistics++
+# Baseline correction and statistics
 
 %-- include: statistics.md --%
 
 ~
 
 
-# Discussion (and ++five++ recommendations)
+# Discussion (and five recommendations)
 
 %-- include: discussion.md --%
 

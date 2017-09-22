@@ -9,7 +9,7 @@ Based on this single recording, 200 trials were generated. To each trial, a cons
 
 To simulate two conditions that differed in pupil size, we added a series of values that linearly increased from 0 (at the start of the trial) to 200 (at the end of the trial) to half the trials (i.e. the same slight increase from 0 to 200 was applied to half the trials). These trials are the Red condition; the other trials are the Blue condition. As shown in %FigSimulation::a, pupil size is slightly larger in the Red condition than in the Blue condition, and this effect increases over time.
 
-Crucially, in the Blue condition there were two trials in which a blink started at the first sample, and therefore affected the baseline period. In none of the other trials did the baseline period contain a blink. ++By making the two conditions equally "noisy" (i.e. with exactly one blink per trial) but having two trials in the Blue condition in which these blinks occurred during the baseline, we can show how only a few trials with artifacts during the baseline can dramatically affect the overall results. Crucially, this can easily happen by chance, and even thorough data preprocessing does not guarantee that it will not.++
+Crucially, in the Blue condition there were two trials in which a blink started at the first sample, and therefore affected the baseline period. In none of the other trials did the baseline period contain a blink. By making the two conditions equally "noisy" (i.e. with exactly one blink per trial) but having two trials in the Blue condition in which these blinks occurred during the baseline, we can show how only a few trials with artifacts during the baseline can dramatically affect the overall results. Crucially, this can easily happen by chance, and even thorough data preprocessing does not guarantee that it will not.
 
 
 %--
@@ -41,7 +41,7 @@ The results of subtractive baseline correction are shown in %FigSimulation::e,f.
 
 The results above show that the effects of blinks during the baseline period can be catastrophic, and much more so for divisive than subtractive baseline correction. However, it may be that divisive baseline correction nevertheless leads to the highest statistical power when there are no blinks during the baseline period (even though this is unlikely to happen in real data). To test this, we generated data as described above, while varying the following:
 
-- Effect size (Red larger than Blue), ++from 50 (±2 %) to 500 (±20 %) in steps of 50++
+- Effect size (Red larger than Blue), from 50 (±2 %) to 500 (±20 %) in steps of 50
 - Baseline correction: no correction, divisive, or subtractive
 - Blinks during baseline in Blue condition: yes (2 blinks) or no
 
@@ -57,7 +57,7 @@ figure:
  id: FigPower
  source: FigPower.svg
  caption: |
-  Proportion of detected real (a,c) and spurious (b,d) effects when applying subtractive baseline correction (green), divisive baseline correction (pink), or no baseline correction at all (gray). Data with different effect sizes (x-axis: 0-500) and with (a,b) or without (c,d) blinks during the baseline was generated, 
+  Proportion of detected real (a,c) and spurious (b,d) effects when applying subtractive baseline correction (green), divisive baseline correction (pink), or no baseline correction at all (gray). Data with different effect sizes (x-axis: 0-500) and with (a,b) or without (c,d) blinks during the baseline was generated,
 --%
 
 The proportion of datasets in which a true effect was detected is shown in %FigPower::a,c; the proportion on which a spurious effect was detected is shown in %FigPower::b,d. By chance (i.e. if there was no effect and no systematic distortion of the data) and given our two-sided *p* < .05 criterion, we would expect to find a .025 proportion of detections of true and spurious effects; this is indicated by the horizontal dotted lines.
