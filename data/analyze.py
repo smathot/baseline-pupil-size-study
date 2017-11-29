@@ -3,7 +3,7 @@
 
 from datamatrix import dispatch
 from datamatrix._datamatrix._index import Index
-from analysis import mainplots, data, power, interaction
+from analysis import mainplots, data, power, interaction, reconstruct
 import sys
 
 if '--sim' in sys.argv:
@@ -16,5 +16,5 @@ else:
 # Fix cached old-style datamatrix
 if not isinstance(dm._rowid, Index):
 	object.__setattr__(dm, '_rowid', Index(dm._rowid))
-	
-dispatch.dispatch(dm, modules=[mainplots, power, interaction])
+
+dispatch.dispatch(dm, modules=[mainplots, power, interaction, reconstruct])

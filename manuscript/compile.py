@@ -5,7 +5,7 @@ import sys
 from academicmarkdown import build, git
 import myZoteroCredentials
 import time
-version = '1.3.3'
+version = '1.4.1'
 build.path += ['svg', 'md', 'tbl']
 build.zoteroApiKey = myZoteroCredentials.zoteroApiKey
 build.zoteroLibraryId = myZoteroCredentials.zoteroLibraryId
@@ -19,8 +19,9 @@ if '--snapshot' in sys.argv:
 	git.snapshot('md/__main__.md', msg=sys.argv[-1])
 	build.DOCX('md/__coverletter_2__.md', 'latest-coverletter.docx')
 else:
-	# build.PDF('md/__main__.md', 'latest-manuscript.pdf', lineNumbers=True)
-	# # build.setStyle('letter-classic')
-	# build.zoteroApiKey = None
-	# build.PDF('md/__coverletter_r2__.md', 'latest-coverletter.pdf')
-	build.DOCX('md/__coverletter_r2__.md', 'latest-coverletter.docx')
+	build.PDF('md/__main__.md', 'latest-manuscript.pdf', lineNumbers=False)
+	build.DOCX('md/__main__.md', 'latest-manuscript.docx')
+	build.setStyle('letter-classic')
+	build.zoteroApiKey = None
+	build.PDF('md/__coverletter_r3__.md', 'latest-coverletter.pdf')
+	build.DOCX('md/__coverletter_r3__.md', 'latest-coverletter.docx')
